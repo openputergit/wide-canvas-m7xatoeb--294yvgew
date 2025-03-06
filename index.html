@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwapifyToken - Next Gen Crypto Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: linear-gradient(135deg, #0f1729 0%, #1a237e 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #4F46E5, #06B6D4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="text-white min-h-screen">
+    <nav class="fixed w-full z-50 bg-opacity-90 bg-[#0f1729] backdrop-blur-md">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold gradient-text">Swapify</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="hover:text-indigo-400">Investing</a>
+                    <a href="#" class="hover:text-indigo-400">Cash</a>
+                    <a href="#" class="hover:text-indigo-400">Planning</a>
+                    <a href="#about.html" class="hover:text-indigo-400">About</a>
+                </div>
+                <div class="flex space-x-4">
+                    <button class="px-4 py-2 rounded-lg hover:text-indigo-400">Sign In</button>
+                    <button class="px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-700">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-20 px-4">
+            <div class="container mx-auto text-center">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6">Built, invest,<br>adjust, enjoy.</h1>
+                <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                    Swapify is a comprehensive platform that enables users to effortlessly buy, trade, create, and secure their crypto assets.
+                </p>
+                <button class="bg-indigo-600 px-8 py-4 rounded-lg text-lg font-medium hover:bg-indigo-700 transition-all">
+                    Install Now <i class="bi bi-arrow-right ml-2"></i>
+                </button>
+
+                <div class="mt-16 relative">
+                    <div class="floating">
+                        <img src="https://via.placeholder.com/300x600/4338CA/FFFFFF?text=App+Preview" alt="App Preview" class="mx-auto rounded-3xl shadow-2xl">
+                    </div>
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
+                        <div class="bg-indigo-600/20 backdrop-blur-xl p-4 rounded-xl max-w-xs mx-auto mb-4">
+                            <div class="flex items-center space-x-3">
+                                <i class="bi bi-currency-ethereum text-2xl"></i>
+                                <div class="flex-1">
+                                    <p class="font-medium">Ethereum</p>
+                                    <p class="text-sm text-gray-300">$1,687.34</p>
+                                </div>
+                                <div class="text-green-400">+2.4%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-20 px-4 bg-opacity-50 backdrop-blur-md">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-16">Why Choose Swapify?</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-6 rounded-xl bg-white/5 backdrop-blur-xl">
+                        <i class="bi bi-shield-check text-4xl text-indigo-400 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Secure Platform</h3>
+                        <p class="text-gray-300">Industry-leading security measures to protect your assets</p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-white/5 backdrop-blur-xl">
+                        <i class="bi bi-lightning text-4xl text-indigo-400 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Fast Transactions</h3>
+                        <p class="text-gray-300">Lightning-fast trades and transfers across multiple chains</p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-white/5 backdrop-blur-xl">
+                        <i class="bi bi-graph-up text-4xl text-indigo-400 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-3">Advanced Analytics</h3>
+                        <p class="text-gray-300">Detailed insights and tracking for your investments</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 px-4">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-8">Ready to start your crypto journey?</h2>
+                <p class="text-xl text-gray-300 mb-8">Join thousands of traders who have already chosen Swapify</p>
+                <button class="bg-indigo-600 px-8 py-4 rounded-lg text-lg font-medium hover:bg-indigo-700 transition-all">
+                    Get Started Now
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8 px-4 bg-opacity-50 backdrop-blur-md">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 gradient-text">Swapify</h4>
+                    <p class="text-gray-300">The next generation of crypto trading</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Products</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-indigo-400">Trading</a></li>
+                        <li><a href="#" class="hover:text-indigo-400">Wallet</a></li>
+                        <li><a href="#" class="hover:text-indigo-400">Cards</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-indigo-400">About</a></li>
+                        <li><a href="#" class="hover:text-indigo-400">Careers</a></li>
+                        <li><a href="#" class="hover:text-indigo-400">Press</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-2xl hover:text-indigo-400"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-2xl hover:text-indigo-400"><i class="bi bi-discord"></i></a>
+                        <a href="#" class="text-2xl hover:text-indigo-400"><i class="bi bi-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
+                <p>&copy; 2023 Swapify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+<script>document.body.addEventListener('wheel', e => { if (!e.ctrlKey) return; e.preventDefault(); return }, { passive: false })</script>
+	</body>
+</html>
